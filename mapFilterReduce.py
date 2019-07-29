@@ -14,3 +14,12 @@ listaMultiplosDeTres = filter (lambda x: x % 3 == 0, lista)
 
 sumatorio = reduce (lambda x, y: x+y, lista)
 suma100 = reduce (lambda x, y: x+y, range(101))
+
+print (list(listaDobles))
+print (list(listaDobles1))
+
+print (list(listaPares))
+print (list(listaMultiplosDeTres))
+
+print(sumatorio)
+print(suma100)
